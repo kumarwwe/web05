@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+
+    min-height: 100vh;
+   background-image:url("city.jpg") ;
+
+}
+a{
+text-decoration: none;
+}
+h1{
+
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.side-menu{
+position: fixed;
+background:rgb(82, 160, 233);
+width: 20vw;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+
+}
+.side-menu.Admin-name{
+    font-size: 24px;
+    padding: 10px;
+}
+.side-menu li{
+    font-size: 25px;
+    padding: 10px 40px;
+    color:black;
+    display: flex;
+}
+.side-menu li:hover{
+    background: white;
+    color:blue;
+}
